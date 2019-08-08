@@ -1,0 +1,103 @@
+.page-index {
+    height: 100%;
+}
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1180px;
+    height: 500px;
+    margin-left: -590px;
+    margin-top: -250px;
+}
+.contract {
+    padding-left: 20px;
+}
+.contract::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    width: 11px;
+    height: 70px;
+    border: 3px solid #000;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.contract .phone, .contract .email {
+    font-size: 22px;
+    line-height: 35px;
+}
+.decorate {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.decorate .decorate-item{
+    width: 22px;
+    height: 6px;
+    margin-bottom: 10px;
+    background: #45cdab;
+}
+.decorate2 {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 6px;
+    height: 50px;
+    background: #45cdab;
+}
+.meta {
+    margin-top: 222px;
+    margin-right: 70px;
+    text-align: right;
+}
+.meta .year {
+    display: inline-block;
+    margin-bottom: 50px;
+    padding: 0px 10px 0px 20px;
+    font-size: 28px;
+    border: 3px solid #45cdab;
+    border-radius: 50px;
+    letter-spacing: 10px;
+}
+.meta .link {
+    margin-right: -20px;
+    overflow: hidden;
+}
+.meta .link-item {
+    position: relative;
+    margin: 0px 10px 0px 20px;
+    font-size: 22px;
+    letter-spacing: 10px;
+}
+.meta .link-item::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    right: -14px;
+    width: 3px;
+    height: 16px;
+    background: #45cdab;
+}
+.meta .title {
+    margin-right: -30px;
+    margin-bottom: 15px;
+    font-size: 54px;
+    font-weight: 500;
+    letter-spacing: 30px;
+}
+.avator {
+    width: 180px;
+    height: 206px;
+    margin-top: 222px;
+    text-align: center;
+    border: 3px solid #000;
+}
+.avator img {
+    width: 85px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}

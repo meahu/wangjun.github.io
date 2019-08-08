@@ -1,0 +1,26 @@
+*{margin:0; padding:0; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; -o-box-sizing:border-box; box-sizing:border-box;}
+html, body{height:100%; font-size:14px; font-family:"Microsoft Yahei", "寰蒋闆呴粦"}/*, SourceHanSans-Normal,-apple-system,Helvetica Neue,PingFang SC,Source Han Sans SC,Noto Sans CJK SC,Source Han Sans CN,Source Han Sans TC,"Microsoft Yahei",sans-serif,Verdana, Arial, Helvetica;*/
+a, a:hover, a:active, a:visited,a:focus{color:#444; text-decoration:none;}
+img{border:none; vertical-align:top;}
+input, select, textarea{outline:0; resize:none;}/*vertical-align:top;*/
+ol, ul, li{list-style:none;}
+p{word-wrap:break-word;}
+
+.wrap{position:relative; width:1180px; margin:0 auto;}
+.pointer{cursor:pointer;}
+.fl{float:left; display:inline;}
+.fr{float:right; display:inline;}
+.clearfix{zoom:1;}
+.clearfix:after{clear:both; display:block; content:'';}
+.phcolor{color:#aaa;}
+.bg-f6f6f6{background:#F6F6F6;}
+.ellipsis{overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.b-index *, .b-bass *, .bm-case *, .b-contact *, .b-milestone *, .b-job *, .b-company *, .b-newslist *, .header *, .footer *{font-weight: 200;}
+area{cursor:pointer;}
+a{transition:all 0.5s}
+.btn{display:block; height:40px; line-height:38px; text-align:center; border:1px solid #fff; cursor:pointer;}
+.icon2{background:url(../images/sprites_v7.png);}
+
+.page {
+    position: relative;
+}
