@@ -1,4 +1,4 @@
-*{margin:0; padding:0; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; -o-box-sizing:border-box; box-sizing:border-box;}
+*{margin:0; padding:0; color: #131313; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; -o-box-sizing:border-box; box-sizing:border-box;}
 html, body{height:100%; font-size:14px; font-family:"Microsoft Yahei", "寰蒋闆呴粦"}/*, SourceHanSans-Normal,-apple-system,Helvetica Neue,PingFang SC,Source Han Sans SC,Noto Sans CJK SC,Source Han Sans CN,Source Han Sans TC,"Microsoft Yahei",sans-serif,Verdana, Arial, Helvetica;*/
 a, a:hover, a:active, a:visited,a:focus{color:#444; text-decoration:none;}
 img{border:none; vertical-align:top;}
@@ -23,4 +23,55 @@ a{transition:all 0.5s}
 
 .page {
     position: relative;
+}
+
+.thanks {
+    margin-bottom: 70px;
+    overflow: hidden;
+}
+.thanks .wrap {
+    height: 131px;
+    border-bottom: 3px solid #131313;
+}
+.thanks .wrap::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    right: 720px;
+    z-index: 10;
+    width: 1000px;
+    height: 3px;
+    background: #131311;
+}
+.thanks .txt-wrap {
+    position: relative;
+    margin-top: 34px;
+    margin-left: 55px;
+    background: #fff;
+}
+.thanks .txt-wrap::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: -45px;
+    z-index: 10;
+    width: 332px;
+    height: 3px;
+    background: #fff;
+}
+.thanks .txt {
+    margin-bottom: 10px;
+    color: #45cdab;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+.thanks .link {
+    position: relative;
+    bottom: -5px;
+    font-size: 33px;
+    letter-spacing: 8px;
+}
+
+.thanks .img {
+    width: 110px;
 }
