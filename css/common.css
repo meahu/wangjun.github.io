@@ -71,6 +71,9 @@ a{transition:all 0.5s}
     font-size: 33px;
     letter-spacing: 8px;
 }
+.thanks .link:hover {
+    color: #45cdab;
+}
 
 .thanks .img {
     width: 110px;
