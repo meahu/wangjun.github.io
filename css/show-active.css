@@ -1,6 +1,5 @@
 .step {
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 .step .wrap {
     overflow: hidden;
@@ -14,6 +13,7 @@
 .step .num {
     color: #45cdab;
     font-size: 50px;
+    line-height: 1;
 }
 .step .txt {
     width: 655px;
@@ -35,7 +35,7 @@
 }
 
 .thinking {
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     overflow: hidden;
     background: #f4f4f6;
 }
@@ -61,7 +61,7 @@
 }
 
 .aimg {
-    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .aimg img {
     width: 100%;
