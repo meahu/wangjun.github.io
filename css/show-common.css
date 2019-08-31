@@ -3,10 +3,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .page-show {
     height: 100%;
-    
-}
-.pt-60 {
-    padding-top: 60px;
 }
 .wrap {
     position: relative;
@@ -21,7 +17,7 @@ h1, h2, h3, h4, h5, h6, p {
 .back-link {
     margin-right: 40px;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 8px;
 }
 .back-link:hover {
@@ -49,7 +45,7 @@ h1, h2, h3, h4, h5, h6, p {
     width: 24px;
     text-align: center;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
 }
 .banner {
     width: 100%;

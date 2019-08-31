@@ -15,6 +15,7 @@
 }
 .back-link {
     font-size: 30px;
+    letter-spacing: 8px;
 }
 .back-link:hover {
     color: #45cdab;
@@ -83,6 +84,9 @@
     height: 20px;
     background: #45cdab;
 }
+.meta .link-item:last-child::before {
+    content: none;
+}
 .meta .title {
     margin-right: -30px;
     margin-bottom: 50px;
@@ -95,8 +99,13 @@
     color: #45cdab;
     letter-spacing: 10px;
 }
-.meta .contract img {
+.meta .contract .icon-phone {
     width: 22px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+.meta .contract .icon-email {
+    width: 31px;
     margin-right: 15px;
     vertical-align: middle;
 }

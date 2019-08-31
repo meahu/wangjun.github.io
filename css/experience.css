@@ -1,20 +1,21 @@
 .page-about {
     height: 100%;
 }
-.main {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+.wrap {
+    position: relative;
     width: 1180px;
-    /* height: 500px; */
-    margin-left: -590px;
-    margin-top: -250px;
+    margin: 0 auto;
 }
 .back {
-    margin-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    line-height: 1;
 }
 .back-link {
+    margin-right: 40px;
     font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 8px;
 }
 .back-link:hover {
     color: #45cdab;
@@ -22,7 +23,7 @@
 .decorate {
     position: absolute;
     right: 0px;
-    top: 0px;
+    top: 80px;
 }
 .decorate .decorate-item{
     width: 22px;
@@ -34,6 +35,7 @@
     width: 24px;
     text-align: center;
     font-size: 24px;
+    font-weight: 500;
 }
 .decorate2 {
     position: absolute;

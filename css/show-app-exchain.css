@@ -24,7 +24,7 @@
 .component .intro .title .txt {
     position: relative;
     z-index: 1;
-    font-size: 18px;
+    font-size: 16px;
 }
 .component .intro .title .txt::after {
     content: '';
@@ -33,7 +33,7 @@
     left: 0px;
     z-index: -1;
     width: 100%;
-    height: 12px;
+    height: 8px;
     background: #53aef1;
 }
 .component .p {
@@ -47,7 +47,7 @@
     margin-left: 30px;
 }
 .component .img-show .poster{
-    width: 186px;
+    width: 180px;
     border: 3px solid #000;
     vertical-align: middle;
     border-radius: 14px;
@@ -74,7 +74,7 @@
 }
 .component.black .intro .title .txt,
 .component.black .p {
-    color: #fff;
+    color: #f4f4f6;
 }
 .standard {
     padding: 60px 0px 0px;
@@ -101,7 +101,7 @@
 }
 .standard .function .item h3 {
     margin-bottom: 30px;
-    color: #fff;
+    color: #f4f4f6;
     font-size: 16px;
 }
 .standard .function .item .img {
@@ -115,7 +115,7 @@
     margin-bottom: 14px;
     font-size: 12px;
     line-height: 24px;
-    color: #fff;
+    color: #f4f4f6;
 }
 
 .standard .design {
@@ -132,13 +132,13 @@
 }
 .standard .design .item h3{
     margin-bottom: 40px;
-    color: #fff;
+    color: #f4f4f6;
     font-size: 12px;
 }
 .standard .design .item h3 .txt {
     position: relative;
     z-index: 0;
-    color: #fff;
+    color: #f4f4f6;
     font-size: 16px;
 }
 .standard .design .item h3 .txt::after {
@@ -177,16 +177,17 @@
 }
 .font .p1 {
     margin-bottom: 25px;
-    color: #fff;
+    color: #f4f4f6;
     font-size: 12px;
 }
 .font .p2 {
     margin-bottom: 25px;
-    color: #fff;
+    color: #f4f4f6;
     font-size: 30px;
 }
-.font .p3 {
-    color: #fff;
+.font .p3 span {
+    margin-right: 5px;
+    color: #f4f4f6;
     font-size: 12px;
 }
 .mark p{

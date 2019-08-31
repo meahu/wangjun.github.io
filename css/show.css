@@ -15,6 +15,7 @@
 }
 .back-link {
     font-size: 30px;
+    letter-spacing: 8px;
 }
 .back-link:hover {
     color: #45cdab;

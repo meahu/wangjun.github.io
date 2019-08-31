@@ -20,9 +20,13 @@ area{cursor:pointer;}
 a{transition:all 0.5s}
 .btn{display:block; height:40px; line-height:38px; text-align:center; border:1px solid #fff; cursor:pointer;}
 .icon2{background:url(../images/sprites_v7.png);}
-
+a:hover {color: #45cdab;}
+.highlight {color: #45cdab;}
 .page {
     position: relative;
+}
+.pt-60 {
+    padding-top: 60px;
 }
 .char {
     display: block;

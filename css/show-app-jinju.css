@@ -1,13 +1,34 @@
+.project .project-title .txt::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: -45px;
+    width: 19px;
+    height: 19px;
+    border: 3px solid #fa9838;
+    border-radius: 50%;
+}
 .component {
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     overflow: hidden;
+}
+.component.gray {
+    background: #f4f4f6;
+}
+.component.black {
+    color: #fff;
+    background: #060608;
 }
 .component .wrap{
    width: 862px;
 }
 .component .intro {
-    width: 265px;
+    width: 230px;
+}
+.component .intro .logo {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 40px;
 }
 .component .intro .title {
     margin-bottom: 35px;
@@ -15,7 +36,7 @@
 .component .intro .title .txt {
     position: relative;
     z-index: 1;
-    font-size: 24px;
+    font-size: 16px;
 }
 .component .intro .title .txt::after {
     content: '';
@@ -24,8 +45,8 @@
     left: 0px;
     z-index: -1;
     width: 100%;
-    height: 14px;
-    background: #45cdab;
+    height: 8px;
+    background: #fa9838;
 }
 .component .p {
     position: relative;
@@ -34,30 +55,30 @@
     line-height: 22px;
 }
 .component .p::before {
-    content: '';
+    /* content: '';
     position: absolute;
     top: 6px;
     left: -22px;
     width: 12px;
     height: 12px;
-    border: 3px solid #45cdab;
+    border: 3px solid #fa9838;
     border-radius: 50%;
-    -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; -o-box-sizing:border-box; box-sizing:border-box;
+    -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; -o-box-sizing:border-box; box-sizing:border-box; */
 }
 .component .img-show {
     /* overflow: hidden; */
     margin-left: 30px;
 }
 .component .img-show .poster{
-    width: 156px;
+    width: 180px;
     border: 3px solid #000;
     vertical-align: middle;
     border-radius: 12px;
 }
 .component .img-show .arrow {
     width: 12px;
-    margin-left: 14px;
-    margin-right: 14px;
+    margin-left: 9px;
+    margin-right: 9px;
     vertical-align: middle;
 }
 .component .img-show.middle {
@@ -68,14 +89,15 @@
     float: right;
 }
 .component.black {
-    color: #fff;
+    color: #f4f4f6;
     background: #060608;
 }
 .component.black .intro .title .txt,
 .component.black .p {
-    color: #fff;
+    color: #f4f4f6;
 }
 .standard {
+    padding-top: 60px;
     color: #f4f4f6;
     background: #060608;
     overflow: hidden;
@@ -84,38 +106,44 @@
     width: 862px;
 }
 .standard .function {
-    margin-bottom: 50px;
-    height: 285px;
+    height: 210px;
+    margin-bottom: 40px;
 }
 .standard .function .item{
+    position: relative;
+    z-index: 0;
     width: 192px;
     margin-right: 143px;
-    padding-top: 50px;
 }
 .standard .function .item.last {
     margin-right: 0;
 }
 .standard .function .item h3{
     margin-bottom: 30px;
-    color: #fff;
-    font-size: 14px;
+    color: #f4f4f6;
+    font-size: 16px;
+}
+.standard .function .item .img {
+    position: absolute;
+    top: -5px;
+    left: -15px;
+    z-index: -1;
 }
 .standard .function .item p{
     position: relative;
     margin-bottom: 14px;
     font-size: 12px;
     line-height: 22px;
-    color: #fff;
+    color: #f4f4f6;
 }
 
 .standard .design {
     margin-bottom: 50px;
-    height: 285px;
+    height: 160px;
 }
 .standard .design .item{
     width: 335px;
     padding-right: 143px;
-    padding-top: 50px;
 }
 .standard .design .item.last {
     width: 192px;
@@ -123,13 +151,14 @@
 }
 .standard .design .item h3{
     margin-bottom: 30px;
-    color: #fff;
+    color: #f4f4f6;
     font-size: 14px;
 }
 .standard .design .item h3 .txt {
     position: relative;
     z-index: 0;
-    color: #fff;
+    color: #f4f4f6;
+    font-size: 16px;
 }
 .standard .design .item h3 .txt::after {
     content: '';
@@ -138,8 +167,8 @@
     left: 0px;
     z-index: -1;
     width: 100%;
-    height: 14px;
-    background: #45cdab;
+    height: 8px;
+    background: #fa9838;
 }
 .color-wrap .color {
     width: 32px;
@@ -167,16 +196,17 @@
 }
 .font .p1 {
     margin-bottom: 25px;
-    color: #fff;
+    color: #f4f4f6;
     font-size: 12px;
 }
 .font .p2 {
     margin-bottom: 25px;
-    color: #fff;
+    color: #f4f4f6;
     font-size: 30px;
 }
-.font .p3 {
-    color: #fff;
+.font .p3 span {
+    margin-right: 5px;
+    color: #f4f4f6;
     font-size: 12px;
 }
 .mark p{

@@ -1,6 +1,5 @@
 .component {
-    /* margin-bottom: 60px; */
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 .component.gray {
     background: #f4f4f6;
