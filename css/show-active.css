@@ -8,7 +8,7 @@
     background: #f4f4f6;
 }
 .step.black {
-    background: #060608;
+    background: #131311;
 }
 .step .num {
     color: #45cdab;
@@ -66,14 +66,14 @@
 .aimg img {
     width: 100%;
     border-radius: 12px;
-    border: 3px solid #060608;
+    border: 3px solid #131311;
 }
 .aimg.black{
-    background: #060608;
+    background: #131311;
 }
 .aimg.gray {
     background: #f4f4f6;
 }
 .aimg.black img {
-    border-color: #060608;
+    border-color: #131311;
 }

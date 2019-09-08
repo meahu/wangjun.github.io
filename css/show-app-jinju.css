@@ -17,7 +17,7 @@
 }
 .component.black {
     color: #fff;
-    background: #060608;
+    background: #131311;
 }
 .component .wrap{
    width: 862px;
@@ -71,7 +71,7 @@
 }
 .component .img-show .poster{
     width: 180px;
-    border: 3px solid #000;
+    border: 3px solid #131311;
     vertical-align: middle;
     border-radius: 12px;
 }
@@ -90,7 +90,7 @@
 }
 .component.black {
     color: #f4f4f6;
-    background: #060608;
+    background: #131311;
 }
 .component.black .intro .title .txt,
 .component.black .p {
@@ -99,7 +99,7 @@
 .standard {
     padding-top: 60px;
     color: #f4f4f6;
-    background: #060608;
+    background: #131311;
     overflow: hidden;
 }
 .standard .wrap {

@@ -29,7 +29,7 @@
     width: 22px;
     height: 6px;
     margin-bottom: 10px;
-    background: #000;
+    background: #131311;
 }
 .decorate .title {
     width: 24px;
@@ -58,7 +58,7 @@
     padding-top: 37px;
     padding-left: 330px;
     text-align: left;
-    border: 3px solid #000;
+    border: 3px solid #131311;
     background: #fff url(../images/show-9e3a1a.png) no-repeat 40px bottom;
     background-size: 255px 277px;
 }

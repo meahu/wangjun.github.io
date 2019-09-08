@@ -52,6 +52,7 @@
     width: 156px;
     vertical-align: middle;
     border-radius: 12px;
+    border: 3px solid #131311;
 }
 .component .img-show .arrow {
     width: 12px;
@@ -65,4 +66,11 @@
 }
 .component .img-show.middle .arrow {
     float: right;
+}
+.component .img-show .arrow-down {
+    float: right;
+    width: 18px;
+    margin-top: 15px;
+    margin-right: 96px;
+    vertical-align: middle;
 }
