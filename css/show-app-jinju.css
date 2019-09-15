@@ -181,6 +181,7 @@
 }
 .color-wrap .txt {
     display: inline-block;
+    margin-left: -5px;
     color: #f4f4f6;
     font-size: 12px;
     transform: scale(0.7);
