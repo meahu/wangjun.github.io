@@ -60,7 +60,7 @@ a:hover {color: #45cdab;}
 .thanks .txt-wrap::after {
     content: '';
     position: absolute;
-    bottom: -3px;
+    bottom: -1px;
     left: -45px;
     z-index: 10;
     width: 332px;
