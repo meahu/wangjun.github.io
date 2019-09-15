@@ -170,6 +170,9 @@
     height: 8px;
     background: #fa9838;
 }
+.color-wrap {
+    width: 53px;
+}
 .color-wrap .color {
     width: 32px;
     height: 32px;
@@ -177,7 +180,10 @@
     border-radius: 50%;
 }
 .color-wrap .txt {
+    display: inline-block;
+    color: #f4f4f6;
     font-size: 12px;
+    transform: scale(0.7);
 }
 .color-wrap .color-fa9838 {
     background: #fa9838;

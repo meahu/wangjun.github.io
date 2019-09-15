@@ -1,5 +1,5 @@
 *{margin:0; padding:0; color: #131313; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; -o-box-sizing:border-box; box-sizing:border-box;}
-html, body{height:100%; font-size:14px; font-family: "PingFangSC-Regular, sans-serif, Microsoft Yahei"}/*, SourceHanSans-Normal,-apple-system,Helvetica Neue,PingFang SC,Source Han Sans SC,Noto Sans CJK SC,Source Han Sans CN,Source Han Sans TC,"Microsoft Yahei",sans-serif,Verdana, Arial, Helvetica;*/
+html, body{height:100%; font-size:14px; font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif}
 a, a:hover, a:active, a:visited,a:focus{text-decoration:none;}
 img{border:none; vertical-align:top;}
 input, select, textarea{outline:0; resize:none;}/*vertical-align:top;*/
@@ -33,7 +33,7 @@ a:hover {color: #45cdab;}
     transform: rotate(90deg);
 }
 .thanks {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
     overflow: hidden;
 }
 .thanks .wrap {

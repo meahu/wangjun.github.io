@@ -65,6 +65,7 @@
     text-align: left;
 }
 .meta .link {
+    width: 600px;
     margin-bottom: 25px;
     margin-left: -20px;
     overflow: hidden;

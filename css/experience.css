@@ -48,6 +48,7 @@
 .main-inner {
     width: 750px;
     /* height: 320px; */
+    padding-bottom: 1px;
     text-align: left;
     background: url(../images/experience-line.png) repeat-y 7px 10px;
 }
