@@ -32,6 +32,12 @@ a:hover {color: #45cdab;}
     display: block;
     transform: rotate(90deg);
 }
+.img-border-gray {
+    border: 3px solid #131311;
+}
+.img-border-black {
+    border: 3px solid #494961;
+}
 .thanks {
     padding-bottom: 80px;
     overflow: hidden;
