@@ -1,4 +1,4 @@
-.project .project-title .txt::before {
+/* .project .project-title .txt::before {
     content: '';
     position: absolute;
     top: 4px;
@@ -7,7 +7,7 @@
     height: 19px;
     border: 3px solid #fa9838;
     border-radius: 50%;
-}
+} */
 .component {
     padding-bottom: 60px;
     overflow: hidden;
@@ -91,6 +91,9 @@
 .component.black {
     color: #f4f4f6;
     background: #131311;
+}
+.component.black .img-show .poster{
+    border-color: #494961;
 }
 .component.black .intro .title .txt,
 .component.black .p {

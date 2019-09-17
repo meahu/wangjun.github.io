@@ -38,6 +38,9 @@ a:hover {color: #45cdab;}
 .img-border-black {
     border: 3px solid #494961;
 }
+.transparent {
+    opacity: 0;
+}
 .thanks {
     padding-bottom: 80px;
     overflow: hidden;
